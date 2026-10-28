@@ -9,7 +9,7 @@
 }
 
 body {
-    margin: 2em;
+    margin: 1.3em;
     /* background: rgb(251, 227, 204); */
     color: var(--color);
     font-family: Georgia, "Times New Roman", serif;
@@ -43,7 +43,7 @@ h2 {
 
 p,summary {
     min-width: 50%;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 li {
@@ -95,7 +95,7 @@ hr {
    
 p,summary {
     min-width: 50%;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 li {
@@ -115,6 +115,7 @@ li {
 
 .booking-embeds {
     grid-template-columns: 1fr;
+    row-gap: 0;
 }
 
 }
